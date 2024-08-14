@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devopstool-k8s
-          image: khaliddocker1205/devopstool # Image that will be used to containers in the cluster
+          image: priyankayadav08/devopstool # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4000 # The port that the container is running on in the cluster
